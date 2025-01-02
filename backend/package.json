@@ -5,7 +5,8 @@
   "scripts": {
     "build": "tsc --watch ./src/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npx nodemon"
+    "start": "node ./build/index.js",
+    "dev": "npx nodemon"
   },
   "keywords": [],
   "author": "",
